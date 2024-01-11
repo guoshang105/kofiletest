@@ -47,7 +47,7 @@
         [
             {"type": "field","inboundTag": ["onetag"],"outboundTag": "twotag"},
             {"type": "field","outboundTag": "sockstor","domain": ["geosite:tor"]},
-            {"type": "field","outboundTag": "WARP","domain":["domain:openai.com","domain:ai.com"]}
+            {"type": "field","outboundTag": "WARP","domain":["domain:openai.com","domain:ai.com","domain:chat.openai.com"]}
         ]
     }
 }
