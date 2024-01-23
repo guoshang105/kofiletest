@@ -1,4 +1,9 @@
 {
+    "log": {
+        "access": "/dev/null",
+        "error": "/dev/null",
+        "loglevel": "none"
+    },
     "inbounds": 
     [
         {
@@ -43,6 +48,7 @@
     
     "routing": 
     {
+        "domainStrategy": "AsIs",
         "rules": 
         [
             {"type": "field","inboundTag": ["onetag"],"outboundTag": "twotag"},
