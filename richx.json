@@ -43,7 +43,7 @@
         {"protocol": "freedom","settings": {}},
         {"protocol": "socks","tag": "sockstor","settings": {"servers": [{"address": "127.0.0.1","port": 9050}]}},
         {"protocol": "freedom","tag": "twotag","streamSettings": {"network": "domainsocket","dsSettings": {"path": "apath","abstract": true}}},
-        {"protocol": "freedom","tag": "WARP","protocol":"wireguard","settings":{"secretKey":"uI/1iUtLr8ixTTioraGdjwnnOwQpc5CbJBaVccmd0FE=","address":["172.16.0.2/32","2606:4700:110:8720:4db:6179:9e33:a8ff/128"],"peers":[{"publicKey":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","endpoint":"162.159.192.1:2408"}]}}
+        {"protocol": "freedom","tag": "WARP","protocol":"wireguard","settings":{"secretKey":"uI/1iUtLr8ixTTioraGdjwnnOwQpc5CbJBaVccmd0FE=","address":["172.16.0.2/32","2606:4700:110:8720:4db:6179:9e33:a8ff/128"],"peers":[{"publicKey":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","endpoint":"198.18.1.109:2408"}]}}
     ],
     
     "routing": 
