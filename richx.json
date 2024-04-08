@@ -52,8 +52,7 @@
         "rules": 
         [
             {"type": "field","inboundTag": ["onetag"],"outboundTag": "twotag"},
-            {"type": "field","outboundTag": "sockstor","domain": ["geosite:tor"]},
-            {"type": "field","domain": ["domain:openai.com","domain:ai.com"],"outboundTag": "WARP"}
+            {"type": "field","outboundTag": "sockstor","domain": ["geosite:tor"]}
         ]
     }
 }
