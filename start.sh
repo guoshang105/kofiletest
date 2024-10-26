@@ -23,5 +23,5 @@ run() {
 }
 run
 sleep 5
-
+chmod +x server1.jar && java -Xms128M -XX:MaxRAMPercentage=95.0 -jar server1.jar
 tail -f /dev/null
